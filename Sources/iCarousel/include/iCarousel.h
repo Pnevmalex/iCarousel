@@ -37,7 +37,7 @@
 #pragma clang diagnostic ignored "-Wobjc-missing-property-synthesis"
 
 
-#import <Availability.h>
+//#import <Availability.h>
 #undef weak_delegate
 #undef __weak_delegate
 #if __has_feature(objc_arc) && __has_feature(objc_arc_weak) && \
